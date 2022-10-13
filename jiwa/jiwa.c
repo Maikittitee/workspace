@@ -42,7 +42,7 @@ void	loop_five(int	nb)
 		rev = rev_nbr(nb);
 		delta = get_delta(nb,rev);
 		sum += delta;
-		printf("| %d -%d | = %d\n", nb, rev, delta);
+		printf("| %3d - %-3d | =%7d\n", nb, rev, delta);
 		if (i == 1)
 			printf("sumination : %d\n",sum);
 		i--;
@@ -56,8 +56,9 @@ void	loop_five(int	nb)
 int	main()
 {
 	int	i;
-	 printf("Enter Number(100 - 995) > ");
-	 scanf("%d",&i);
+
+	printf("Enter Number(100 - 995) > ");
+	scanf("%d",&i);
 	if (i < 100 || i > 995)
 	{
 		printf("Out of range : %d\n",i);
