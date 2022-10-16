@@ -1,5 +1,5 @@
 #include <stdio.h>
-//TODO >> Segment fault occured by can_go
+//TODO : Segmentation fault has occurred by can_go() >> FIXED!
 
 int size_x;
 int size_y;
@@ -66,7 +66,7 @@ int	main()
 		}
 	}
 	//show maze for making sure that maze was correct;
-	show_maze(maze);
+	//show_maze(maze);
 
 	//check result from flushfill function
 	if (ft_flushfill(0,0,maze))
