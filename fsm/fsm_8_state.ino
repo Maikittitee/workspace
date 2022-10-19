@@ -46,7 +46,7 @@ SType FSM[11] ={
 	{B10001001, 100, {off2, off2, off2, off2, off2, off2, off2, off2}},
 	{B00001001, 100, {on2, on2, on2, on2, on2, on2, on2, on2}},
 	{B10001001, 100, {off3, off3, off3, off3, off3, off3, off3}},
-	{B00001001, 100, {on3, on3, on3, on3, on3, on3, on3, on3},
+	{B00001001, 100, {on3, on3, on3, on3, on3, on3, on3, on3}},
 	{B10001001, 100, {goW, goS, goW, goW, goW, goS, goW, goW}}
 };
 
@@ -63,7 +63,7 @@ void	setup()
 	pinMode(LED_S_Y, OUTPUT);
 	pinMode(LED_S_G, OUTPUT);
 	pinMode(SOUTH_BUTTON_PIN, INPUT);
-	
+
 	pinMode(LED_H_R, OUTPUT);
 	pinMode(LED_H_G, OUTPUT);
 	pinMode(HUMAN_BUTTON_PIN, INPUT);

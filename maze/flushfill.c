@@ -1,5 +1,6 @@
 #include <stdio.h>
-//TODO : Segmentation fault has occurred by can_go() >> FIXED!
+//COMMENT >> Segmentation fault has occurred by can_go() >> FIXED!
+//TODO >> Fix go_up and go_left (Segmentation Fault) >> 
 
 int size_x;
 int size_y;
