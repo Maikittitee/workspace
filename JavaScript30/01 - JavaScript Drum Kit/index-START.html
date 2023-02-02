@@ -63,8 +63,13 @@
 		const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
 		const button = document.querySelector(`div[data-key="${e.keyCode}"]`)
 
+		document.getElementsByClassName("key").style = 
+
 		console.log(button)
+		button.classList.add('playing')
+		audio.currentTime = 0;
 		audio.play();
+		//button.classList.remove('playing')
 
 	});
 </script>
